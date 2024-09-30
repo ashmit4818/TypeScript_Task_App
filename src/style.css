@@ -85,7 +85,13 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
+.madewithdiv{
+  padding:1rem; 
+  position: absolute;
+   bottom: 0;
+    border: 0;
+     right: 0;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -110,6 +116,11 @@ button:focus-visible {
   }
   .madewith{
     font-size: 20px;
+    
+  }
+  .madewithdiv{
+    padding-bottom: 0;
+    position: relative;
   }
   img.tsimg{
     width: 18px;
