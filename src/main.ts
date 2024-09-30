@@ -24,7 +24,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     
   </div>
 
-  <div style = "padding:1rem; position: absolute; bottom: 0; border: 0; right: 0;" >
+  <div style = "margin:1rem;padding:1rem; position: absolute; bottom: 0; border: 0; right: 0;" >
     <h2 class="madewith">Made with ❤️ and
     <a href="https://www.typescriptlang.org/" target="_blank">
       <img class="tsimg" src="${typescript}" width="25px" height="25px" alt="DevOps Resources Project Link" />
